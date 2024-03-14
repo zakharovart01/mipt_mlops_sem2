@@ -16,7 +16,7 @@
 ├── pyproject.toml\
 ├── README.md\
 └── tools\
-│   ├── infer.py\ 
+│   ├── infer.py\
 │   ├── __init__.py\
 │   └── train.py
 
