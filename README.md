@@ -1,24 +1,24 @@
 # mipt_mlops_sem2
 
-## Структура репозитория
-не все файлы есть тут, т.к. есть .gitignore
-.
-├── data
-│   ├── test.csv
-│   ├── test_pred.csv
-│   ├── train.csv
-│   ├── val.csv
-│   └── WELFake_Dataset.csv
-├── Dockerfile
-├── model
-│   └── model_cls.pt
-├── poetry.lock
-├── pyproject.toml
-├── README.md
-└── tools
-    ├── infer.py
-    ├── __init__.py
-    └── train.py
+## Структура репозитория\
+не все файлы есть тут, т.к. есть .gitignore\
+.\
+├── data\
+│   ├── test.csv\
+│   ├── test_pred.csv\
+│   ├── train.csv\
+│   ├── val.csv\
+│   └── WELFake_Dataset.csv\
+├── Dockerfile\
+├── model\
+│   └── model_cls.pt\
+├── poetry.lock\
+├── pyproject.toml\
+├── README.md\
+└── tools\
+    ├── infer.py\
+    ├── __init__.py\
+    └── train.py\
 
 
 ## Описание проекта
