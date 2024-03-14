@@ -15,10 +15,10 @@
 ├── poetry.lock\
 ├── pyproject.toml\
 ├── README.md\
-└── tools\
-    ├── infer.py\
-    ├── __init__.py\
-    └── train.py\
+└── tools \
+    ├── infer.py \ 
+    ├── __init__.py \
+    └── train.py
 
 
 ## Описание проекта
