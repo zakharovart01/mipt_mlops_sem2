@@ -2,23 +2,33 @@
 
 ## Структура репозитория\
 не все файлы есть тут, т.к. есть .gitignore\
-.\
-├── data\
-│   ├── test.csv\
-│   ├── test_pred.csv\
-│   ├── train.csv\
-│   ├── val.csv\
-│   └── WELFake_Dataset.csv\
-├── Dockerfile\
-├── model\
-│   └── model_cls.pt\
-├── poetry.lock\
-├── pyproject.toml\
-├── README.md\
-└── tools\
-│   ├── infer.py\
-│   ├── __init__.py\
-│   └── train.py
+.
+├── data
+│   ├── test.csv
+│   ├── test_pred.csv
+│   ├── train.csv
+│   ├── val.csv
+│   └── WELFake_Dataset.csv
+├── Dockerfile
+├── model
+│   ├── baseline_model.ckpt
+│   └── model_cls.pt
+├── poetry.lock
+├── pyproject.toml
+├── README.md
+└── tools
+    ├── infer.py
+    ├── __init__.py
+    ├── scripts
+    │   ├── dataset.py
+    │   ├── model.py
+    │   ├── prepro.py
+    │   ├── __pycache__
+    │   │   ├── dataset.cpython-310.pyc
+    │   │   ├── model.cpython-310.pyc
+    │   │   └── trainer.cpython-310.pyc
+    │   └── trainer.py
+    └── train.py
 
 
 ## Описание проекта
