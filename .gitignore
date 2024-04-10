@@ -9,3 +9,6 @@ model/
 
 # Игнорировать файлы с кэшем
 tools/scripts/__pycache__
+
+# Игнорировать файлы с кэшем
+outputs/
