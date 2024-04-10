@@ -26,8 +26,6 @@ def main(cfg: DictConfig):
     train_data = pd.read_csv(os.path.join(PATH, "train.csv"))
 
     train_data = train_data.rename(columns={"label": "rate"})
-    # le = LabelEncoder()
-    # train_data.rate = le.fit_transform(train_data.rate)
 
     train_split, val_split = train_test_split(
         train_data, test_size=0.25, random_state=42
