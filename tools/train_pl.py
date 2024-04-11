@@ -29,7 +29,8 @@ def main(cfg: DictConfig):
         pl.loggers.CSVLogger("./.logs/my-csv-logs", name=cfg.artifacts.experiment_name),
         pl.loggers.MLFlowLogger(
             experiment_name=cfg.artifacts.experiment_name,
-            tracking_uri="file:./.logs/my-mlflow-logs",
+            # tracking_uri="file:./.logs/my-mlflow-logs",
+            tracking_uri="http://localhost:5000",  # до этого в терминале mlflow server --host 127.0.0.1 --port 5000
         ),
     ]
 
