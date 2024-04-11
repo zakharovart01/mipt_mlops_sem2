@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10-slim-buster
+FROM ghcr.io/mlflow/mlflow:latest
 
 # Set the working directory in the container to /app
 WORKDIR /app
@@ -14,3 +14,5 @@ RUN pip install --upgrade pip && \
 # Install any needed packages specified in pyproject.toml
 RUN poetry config virtualenvs.create false && \
     poetry install --no-root --no-dev
+
+RUN pip install psycopg2-binary
